@@ -1,0 +1,6 @@
+time = ('Flamengo', 'Cruzeiro', 'Palmeiras', 'Bahia', 'Bragantino', 'Botafogo', 'Mirassol', 'São Paulo', 'Ceará SC', 'Internacional', 'Corinthians', 'Fluminense', 'Atlético-MG', 'Grêmio', 'EC Vitória', 'Vasco da Gama', 'Santos', 'Fortaleza', 'Juventude', 'Sport Recife')
+print(f'Lista de times do Brasileirão: {time}.')
+print(f'Os 5 primeiros times são: {time[:5]}.')
+print(f'Os 4 últimos times são: {time[-4:]}.')
+print(f'Times em ordem alfabética: {sorted(time)}.')
+print(f'O São Paulo está na {time.index('São Paulo')+1}ª posição.')
